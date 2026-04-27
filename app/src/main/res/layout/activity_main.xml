@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etDay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day 1 Spending"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day 2 Spending"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day 3 Spending"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day 4 Spending"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDay5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day 5 Spending"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Calculate Spending"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3" />
+
+</LinearLayout>
